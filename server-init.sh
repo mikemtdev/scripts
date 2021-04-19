@@ -9,5 +9,5 @@ sudo apt upgrade -y
 # sudo ./
 
 # instll docker
-sudo chmod +x docker-install-ubuntu.20.04.sh
-sudo ./docker-install-ubuntu.20.04.sh
+chmod +x docker-install-ubuntu.20.04.sh
+./docker-install-ubuntu.20.04.sh
