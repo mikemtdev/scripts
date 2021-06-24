@@ -1,0 +1,13 @@
+  
+ "scripts": {
+    "prepare": "husky install",
+    "start": "nodemon server.js",
+    "test": "jest",
+    "dev-test": "jest --watchAll"
+  },
+  "husky": {
+    "pre-commit": [
+      "yarn run test",
+      "branch-naming-check '\b(main | dev)+-w[a-zA-Z]+-w[a-zA-Z]'"
+    ]
+  },
